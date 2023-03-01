@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8" />
+<title>ページ名 | サイト名</title>
+<meta name="description" content="サイトの説明文" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="canonical" href="あなたのサイトURL" />
+<link rel="icon" type="image/png" href="ファビコンのパス" />
+<!-- OGP設定 -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="あなたのサイトURL" />
+<meta property="og:image" content="SNSで表示させたい画像のパス" />
+<meta property="og:title" content="ページタイトル" />
+<meta property="og:description" content="サイトの説明文" />
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="facebookのApp ID" />
+<meta property="article:publisher" content="FacebookページのURL" />
+<!-- Twitter用設定 -->
+<meta name="twitter:card" content="Twitterカードの種類" />
+<meta name="twitter:site" content="@ユーザー名" />
+<!-- スタイルシートはここから -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body id="top">
+
+<header class="container py-3">
+  <h1 class="text-center">
+    <a href="index.html"><img src="../img/logo-mark.png" alt="site logo" /></a>
+  </h1>
+  <div>
+    <a href="#" class="btn btn-outline-secondary position-absolute text-center p-2 font-weight-bold d-none d-lg-block" style="top:1rem; right:3rem;" role="button" aria-pressed="true">体験セッション<br>お申し込み</a>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="navbar-nav text-md-center nav-justified w-100">
+        <li class="nav-item"><a class="nav-link active" href="#">メニュー</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">メニュー</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">メニュー</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">メニュー</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ドロップダウン</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">リンク1</a>
+            <a class="dropdown-item" href="#">リンク2</a>
+            <a class="dropdown-item" href="#">リンク3</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">メニュー</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- breadcrumb -->
+<nav aria-label="breadcrumb" role="navigation" class="border-top">
+  <div class="container pl-0">
+    <ol class="breadcrumb bg-white pb-0">
+      <li class="breadcrumb-item">
+        <a href="../index.html">HOME</a>
+      </li>
+      <li class="breadcrumb-item wf-breadcrumb-separator">
+        コンタクトページ
+      </li>
+    </ol>
+  </div>
+</nav>
+
+<main>
+  <div class="container-fluid bg-light py-2">
+    <div class="container">
+      <ol class="step-bar">
+        <li class="visited">STEP1<br><span>入力</span></li>
+        <li>STEP2<br><span>確認</span></li>
+        <li>STEP3<br><span>完了</span></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="container py-4">
+    <h3 class="font-weight-bold d-inline-block border-bottom border-secondary w-75 mt-1 pl-4 pb-4">
+      お問い合わせ
+    </h3> 
+    <div class="row">
+     
+           <div class="col-md-8 mt-4">
+        <div class="container border p-5">
+                   <!-- お名前 -->
+        <div class="row form-group">
+          <label for="name" class="col-md-3">お名前</label>
+          <div class="col-md-9">
+            <input type="text" class="form-control" id="name" placeholder="入力してください">
+    <small class="text-muted">補足文もしくはエラーテキストが表示されます。</small>         
+          </div>
+        </div>
+          
+                  <!-- フリガナ -->
+        <div class="row form-group">
+          <label for="ruby" class="col-md-3">フリガナ</label>
+          <div class="col-md-9">
+            <input type="text" class="form-control" id="ruby" placeholder="入力してください">
+            <small class="text-muted">補足文もしくはエラーテキストが表示されます。</small>
+          </div>
+        </div>
+          
+        <!-- E-mail アドレス -->
+        <div class="row form-group">
+          <label for="email" class="col-md-3">Eメールアドレス</label>
+          <div class="col-md-9">
+            <input type="email" class="form-control" id="email" placeholder="入力してください">
+            <small class="text-muted">補足文もしくはエラーテキストが表示されます。</small>
+          </div>
+        </div>
+        
+       <!-- ご連絡先 -->
+        <div class="row form-group">
+          <label for="tel" class="col-md-3">お電話番号</label>
+          <div class="col-md-9">
+            <input type="tel" class="form-control" id="tel" placeholder="入力してください">
+             <small class="text-muted">補足文もしくはエラーテキストが表示されます。</small>
+          </div>
+        </div>
+        
+        <!-- ご希望日時 -->
+        
+        <div class="row form-group">
+          <label for="date" class="col-md-3">ご希望の日時</label>
+           <div class="col-md-9 input-group">
+    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="ご希望の日時">
+        <div class="input-group-prepend">
+      <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+    </div>
+  </div>  
+        </div>  
+        
+        <!-- ご希望時間 -->
+        <fieldset class="form-group">
+          <div class="row">
+            <label for="time" class="col-md-3">ご希望時間</label>
+            <div class="col-md-9">
+              <select id="time" class="form-control">
+                <option value="10:00～11:00">10：00</option>
+                <option value="11:00～12:00">11：00</option>
+                <option value="12:00～13:00">12：00</option>
+                <option value="13:00～14:00">13：00</option>
+                <option value="14:00～15:00">14：00</option>
+                <option value="15:00～16:00">15：00</option>
+                <option value="16:00～17:00">16：00</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+        
+                <!-- お問い合わせ内容 -->
+        <div class="row form-group">
+          <label for="contact-note" class="col-md-3 col-form-label my-3">お問い合わせ内容</label>
+          <div class="col-md-9">
+            <textarea class="form-control p-4 my-2" id="contact-note" placeholder="入力してください" required rows="5">
+                </textarea>
+          </div>
+        </div>
+        <!-- 選択肢 -->
+        <fieldset>
+          <div class="row formm-group mb-4">
+            <label for="radios" class="col-md-3 col-form-label mt-2">選択肢</label>
+            <div class="col-md-9 mt-2" id="radios">
+              <div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline1">選択肢1</label>
+</div>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline2">選択肢2</label>
+</div>
+            </div>
+          </div>
+        </fieldset>
+
+  <!-- チェック項目 -->
+  <div class="row form-group justify-content-center">
+   <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="customCheck1">
+  <label class="custom-control-label" for="customCheck1">記憶する</label>
+</div>
+  </div>        
+        <!-- 送信ボタン -->
+        <div class="row form-group justify-content-center mb-4">
+          <div class="col-md-4 p-0">
+            <button type="submit" class="btn btn-secondary w-100">
+              送信する
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- right column -->
+      <div class="col-md-4 mt-4">
+        <div class="container border p-5">
+          <!-- メールフォームアイコン -->
+          <div class="text-center">
+            <div class="text-secondary pt-4 mt-4">
+              <i class="far fa-envelope fa-5x"></i>
+            </div>
+          </div>
+          <p class="small mt-3">
+            体験講座やセミナーのお申し込みやお問い合わせはお気軽に左記のメールフォームから必要事項を記⼊してお送りください。
+          </p>
+          <!-- その他のお問い合わせ -->
+          <div class="my-4">
+            <h6 class="border-bottom border-secondary col-lg-10 bw-2 p-3 mb-3">
+              その他のお問い合わせ
+            </h6>
+            <p class="font-weight-bold mb-0">TEL：03-1234-5678</p>
+            <p class="font-weight-bold mt-0">E-mail：info@example.com</p>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</main>
+
+<!-- footer -->
+<footer class="bg-dark text-light p-0">
+  <div class="container">
+    <!-- left contents -->
+    <div class="row">
+      <div class="col-md-6 mr-auto my-4">
+        <span class="small mr-4">2019 © あなたのサイト名</span>
+        <!-- Twitter -->
+        <a href="http://twitter.com/share?url=あなたのサイトURL&amp;text=エンコードした説明文" onclick="window.open(this.href, 'twitter_tweet', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;">
+          <img src="../img/sns.svg" alt="" class="d-inline wf-square-xs" />
+        </a>
+        <!-- facebook -->
+        <a href="https://www.facebook.com/sharer/sharer.php?u=あなたのサイトURL" class="mr-auto" onclick="window.open(this.href, 'fb_window', 'width=450, height=300, menubar=no, toolbar=no, scrollbars=yes'); return false;" target="blank">
+          <img src="../img/sns.svg" alt="" class="d-inline wf-square-xs" />
+        </a>
+      </div>
+      <!-- right contents -->
+      <a href="./contact" class="col-xs-3 small text-white mx-4 my-4">お問い合わせ</a>
+      <a href="#" class="col-xs-3 small text-white my-4">プライバシーポリシー</a>
+    </div>
+  </div>
+  <!-- button to top page -->
+  <a href="#" class="d-none d-md-block position-fixed wf-gotta-top text-center p-3">
+    <i class="fas fa-arrow-up fa-3x text-white"></i>
+  </a>
+</footer>
+
+<!-- add Bootstrap4 -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
