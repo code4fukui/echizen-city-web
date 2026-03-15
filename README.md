@@ -1,5 +1,7 @@
 # echizen-city-web
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 - https://code4fukui.github.io/echizen-city-web/static/demo1/
 - https://code4fukui.github.io/echizen-city-web/static/demo2/
 
